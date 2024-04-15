@@ -10,7 +10,7 @@ const messages = [
 	{ id: 2, name: 'bye', content: 'goodbye from REST' },
 ];
 app.get('/', (req, res) => {
-	res.send('Hello World');
+	res.send('Hello from Jenkins');
 });
 
 app.get('/messages/:id', (req, res) => {
